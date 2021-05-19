@@ -10,6 +10,12 @@
   <meta name="keywords" content="radca prawny lesław kula" />
   <meta name="author" content="Joanna Kokot" />
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous"
+  />
   <link rel="icon" href="./leszek2.jpg">
   <script type="text/javascript">
     function sendEmail(user, server) {
@@ -46,7 +52,7 @@
           opacity-75
           mx-4
           lg:mx-0
-        ">
+        "  data-aos="fade-in">
       <div class="p-4 md:p-12 text-center lg:text-left">
         <div class="
               block
@@ -58,7 +64,7 @@
               h-48
               w-48
               bg-cover bg-center
-            " style="background-image: url('leszek2.jpg')"></div>
+            " style="background-image: url('leszek2.jpg')" data-aos="fade-right"></div>
 
         <h1 class="text-3xl font-bold pt-8 lg:pt-0">Lesław Kula</h1>
         <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500"></div>
@@ -179,9 +185,21 @@
     </div>
 
     <div class="w-full lg:w-2/5" style="margin-left: -20px; z-index: 1000">
-      <img src="./leszek2.jpg" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
+      <img src="./leszek2.jpg" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" data-aos="fade-right" />
     </div>
   </div>
 </body>
 
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+crossorigin="anonymous"
+></script>
+<script>
+  AOS.init({
+    delay: 200,
+    duration: 1200,
+    once: true,
+  });
+</script>
 </html>

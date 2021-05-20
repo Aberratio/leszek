@@ -5,7 +5,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
     integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
@@ -160,7 +159,8 @@
             </h2>
             <p class="text-lg leading-relaxed m-4">
             <div class="pt-12" data-aos="fade-right">
-              <a href="#" class="
+              <a href="#" 
+              id="demo" class="
                       bg-blueGray-700
                       hover:bg-black
                       text-white
@@ -169,7 +169,7 @@
                       px-4
                       rounded-full
                       motion-safe:hover:scale-110
-                    " onclick="sendEmail('kancelaria.leslaw', 'kula.opole.pl'); ">Napisz wiadomość</a>
+                    " onclick="sendEmail('kancelaria.leslaw', 'kula.opole.pl');" onmouseover="mouseOver()" onmouseout="mouseOut()">Napisz wiadomość</a>
             </div>
             </p>
           </div>
@@ -209,12 +209,6 @@
 
     </footer>
 </body>
-<script>
-  function toggleNavbar(collapseID) {
-    document.getElementById(collapseID).classList.toggle("hidden");
-    document.getElementById(collapseID).classList.toggle("block");
-  }
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
   integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
   crossorigin="anonymous"></script>
@@ -230,5 +224,16 @@
     location.href = "mailto:" + user + "@" + server;
   }
 </script>
+<script>
+  function mouseOver() {
+    document.getElementById("demo").style.backgroundColor = "black";
+    document.getElementById("demo").style.padding = "15px";
+  }
+  
+  function mouseOut() {
+    document.getElementById("demo").style.backgroundColor = "rgba(39, 39, 42)";
+    document.getElementById("demo").style.padding = "10px";
+  }
+  </script>
 
 </html>

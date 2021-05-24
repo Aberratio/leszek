@@ -1080,7 +1080,7 @@ ul.icons li:last-child {
 }
 
 ul.icons li .icon {
-  color: #505051;
+  color: #15ff00;
 }
 
 ul.icons li .icon:before {
@@ -1168,7 +1168,7 @@ table.alt tfoot {
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #50f011ad;
+  background: #000000ad;
   bottom: 4em;
   left: 0;
   max-height: calc(80vh - 4em);
@@ -1437,7 +1437,7 @@ table.alt tfoot {
 }
 
 .poptrox-popup .caption p {
-  color: #ffffff;
+  color: #15ff00;
 }
 
 .poptrox-popup .loader {
@@ -1626,7 +1626,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
-  background: #50f011d4;
+  background: #000000ad;
   bottom: -1em;
   height: 5em;
   left: 0;
@@ -1686,7 +1686,7 @@ body.is-preload #header {
   -ms-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
   border: 0;
-  color: #ffffff;
+  color: #15ff00;
   display: inline-block;
   letter-spacing: 0.1em;
   padding: 0 1.65em;
@@ -1694,17 +1694,17 @@ body.is-preload #header {
 }
 
 #header nav > ul > li a.icon:before {
-  color: #0c5e23;
+  color: #15ff00;
   float: right;
   margin-left: 0.75em;
 }
 
 #header nav > ul > li a:hover {
-  color: #ffffff !important;
+  color: #15ff00 !important;
 }
 
 #header nav > ul > li a.active {
-  background-color: #242629a6;
+  background-color: #000000ad;
 }
 
 @media screen and (max-width: 736px) {
@@ -2229,7 +2229,7 @@ body.is-preload #main .thumb {
 /* Footer */
 
 #footer .copyright {
-  color: #505051;
+  color: #ffffff;
   font-size: 0.9em;
 }
 

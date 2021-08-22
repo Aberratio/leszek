@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} !^kula.opole.pl [NC]
+RewriteRule ^(.*)$ http://kula.opole.pl%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index\.html 
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L] 

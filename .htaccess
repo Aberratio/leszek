@@ -5,3 +5,13 @@ RewriteRule ^(.*)$ http://kula.opole.pl%{REQUEST_URI} [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^.*/index\.html 
 RewriteRule ^(.*)index\.html$ /$1 [R=301,L] 
+
+RewriteRule ^index.html$ https://www.kula.opole.pl/$1 [R=301,L]
+RewriteRule ^index.php$ https://www.kula.opole.pl/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^188\.210\.221\.78
+RewriteRule (.*) https://www.kula.opole.pl/$1 [R=301,L]
+
+ #redirect /file.html to /file
+ RewriteCond %{THE_REQUEST} \s/([^.]+)\.html [NC]
+ RewriteRule ^ /%1 [NE,L,R]

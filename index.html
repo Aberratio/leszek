@@ -1,495 +1,134 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./para.png" />
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
     <title>Lesław Kula</title>
-  </head>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <body class="text-gray-800 antialiased bg-black overflow-x-hidden">
-    <!-- Main Area -->
-    <main>
-      <!-- Motto - start -->
-      <div
-        class="pt-64 pb-64 flex content-center items-center justify-center"
-        style="min-height: 100vh"
-      >
-        <div
-          class="absolute top-0 w-full h-full bg-cover bg-center"
-          style="background-image: url('./tlo1.jpg')"
-        >
-          <span
-            id="blackOverlay"
-            class="w-full h-full absolute opacity-25 bg-black"
-          ></span>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/demo.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body class="ss-preload">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <div class="container mx-auto" data-aos="fade-in">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div>
-                <h1
-                  class="mt-24 text-white font-semibold text-5xl"
-                  data-aos="fade-down"
-                >
-                  Kancelaria Radcy Prawnego
-                </h1>
-                <p class="mt-4 text-5xl text-gray-300" data-aos="fade-up">
-                  <b class="text-blueGray-700">Lesława Kuli</b>
+    </div>
+
+
+    <!-- header 
+    ================================================== -->
+    <header>
+        <div class="row">
+            <div class="column lg-12 text-center">
+
+                <h1>Witam<span>.</span></h1>
+
+                <p class="lead">
+                Lesław Kula
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="
-            top-10
-            bottom-0
-            left-0
-            right-0
-            w-full
-            absolute
-            pointer-events-none
-            overflow-hidden
-          "
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon points="2560 0 2560 100 0 100"></polygon>
-          </svg>
-        </div>
-      </div>
-      <!-- Motto - stop -->
 
-      <!-- Working with us - start -->
-      <section class="pb-20 bg-black mt-32">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap items-center mt-32 text-blueGray-800">
-            <!-- Address - beign -->
-            <div
-              class="w-full md:w-5/12 px-4 mr-auto ml-auto"
-              data-aos="fade-right"
-            >
-              <!-- Opole - beign -->
-              <div
-                class="
-                  min-h-screen
-                  bg-gray-500
-                  py-6
-                  flex flex-col
-                  justify-center
-                  sm:py-12
-                "
-              >
-                <div
-                  class="
-                    flex
-                    space-x-4
-                    px-4
-                    justify-around
-                    border border-blueGray-600
-                  "
-                >
-                  <div
-                    class="
-                      bg-gradient-to-t
-                      from-black
-                      h-72
-                      w-28
-                      md:w-96
-                      md:rounded-3xl
-                      rounded-full
-                      shadow-md
-                      relative
-                      flex flex-col
-                      items-center
-                      justify-between
-                      md:items-start
-                      py-5
-                      md:p-5
-                      transition-all
-                      duration-150
-                    "
-                  >
-                    <div
-                      class="
-                        transform
-                        -rotate-90
-                        md:rotate-0
-                        text-2xl
-                        font-semibold
-                        text-blueGray-600
-                        md:m-0
-                        md:mt-8
-                        mb-6
-                      "
-                    >
-                      Biuro w Opolu
-                    </div>
-                    <ul class="text-lg text-white font-light md:block">
-                      <li>🏠 ul. Makowa 10, 45-940 Opole</li>
-                      <li>📱 602-797-240</li>
-                    </ul>
-                  </div>
+            </div>
+        </div>
+    </header> <!-- end header -->
+
+
+    <!-- main content
+    ================================================== -->
+    <main>
+        <div class="row block-lg-one-third block-md-one-half block-tab-whole">
+           
+            <div class="column entry">
+                <div class="entry__thumb">
+                    <a href="prawo/index.html" title="law background">
+                        <img src="images/radca.png" alt="">
+                    </a>
                 </div>
-              </div>
-              <!-- Opole - end -->
-
-              <!-- Warszawa - beign -->
-              <div
-                class="
-                  min-h-screen
-                  bg-gray-500
-                  py-6
-                  flex flex-col
-                  justify-center
-                  sm:py-12
-                "
-              >
-                <div
-                  class="
-                    flex
-                    space-x-4
-                    px-4
-                    justify-around
-                    border border-blueGray-600
-                  "
-                >
-                  <div
-                    class="
-                      bg-gradient-to-t
-                      from-black
-                      h-72
-                      w-28
-                      md:w-96
-                      md:rounded-3xl
-                      rounded-full
-                      shadow-md
-                      relative
-                      flex flex-col
-                      items-center
-                      justify-between
-                      md:items-start
-                      py-5
-                      md:p-5
-                      transition-all
-                      duration-150
-                    "
-                  >
-                    <div
-                      class="
-                        transform
-                        -rotate-90
-                        md:rotate-0
-                        text-2xl
-                        font-semibold
-                        text-blueGray-600
-                        md:m-0
-                        md:mt-8
-                        mb-6
-                      "
-                    >
-                      Biuro w Warszawie
-                    </div>
-                    <ul class="text-lg text-white font-light md:block">
-                      <li>👔 Kancelaria DMS</li>
-                      <li>🏠 ul. Królewska 16, 00-103 Warszawa</li>
-                      <li>📱 22 339-54-16</li>
-                    </ul>
-                  </div>
+                <div class="entry__title">
+                    <h3>Radca Prawny</h3>
                 </div>
-              </div>
-              <!-- Warszawa - end -->
+            </div>
 
-              <!-- Wrocław - beign -->
-              <div
-                class="
-                  min-h-screen
-                  bg-gray-500
-                  py-6
-                  flex flex-col
-                  justify-center
-                  sm:py-12
-                "
-              >
-                <div
-                  class="
-                    flex
-                    space-x-4
-                    px-4
-                    justify-around
-                    border border-blueGray-600
-                  "
-                >
-                  <div
-                    class="
-                      bg-gradient-to-t
-                      from-black
-                      h-72
-                      w-28
-                      md:w-96
-                      md:rounded-3xl
-                      rounded-full
-                      shadow-md
-                      relative
-                      flex flex-col
-                      items-center
-                      justify-between
-                      md:items-start
-                      py-5
-                      md:p-5
-                      transition-all
-                      duration-150
-                    "
-                  >
-                    <div
-                      class="
-                        transform
-                        -rotate-90
-                        md:rotate-0
-                        text-2xl
-                        font-semibold
-                        text-blueGray-600
-                        md:m-0
-                        md:mt-8
-                        mb-6
-                      "
-                    >
-                      Biuro we Wrocławiu
-                    </div>
-                    <ul class="text-lg text-white font-light md:block">
-                      <li>Wkrótce!</li>
-                    </ul>
-                  </div>
+            <div class="column entry">
+                <div class="entry__thumb">
+                    <a href="#" title="it background">
+                        <img src="" alt="">
+                    </a>
                 </div>
-              </div>
-              <!-- Wrocław - end -->
-
-              <!-- NIP - beign -->
-              <div
-                class="
-                  min-h-screen
-                  bg-gray-500
-                  py-6
-                  flex flex-col
-                  justify-center
-                  sm:py-12
-                "
-              >
-                <div class="flex space-x-4 px-4 justify-around">
-                  <div
-                    class="
-                      bg-gradient-to-t
-                      from-black
-                      h-72
-                      w-28
-                      md:w-96
-                      md:rounded-3xl
-                      rounded-full
-                      shadow-md
-                      relative
-                      flex flex-col
-                      items-center
-                      justify-between
-                      md:items-start
-                      py-5
-                      md:p-5
-                      transition-all
-                      duration-150
-                    "
-                  >
-                    <ul class="text-lg text-white font-light md:block">
-                      <li>📟 NIP: 991-018-90-80</li>
-                    </ul>
-                  </div>
+                <div class="entry__title">
+                    <h3>Tester Oprogramowania</h3>
                 </div>
-              </div>
-              <!-- NIP - end -->
             </div>
-            <!-- Address - end -->
 
-            <!-- HERO - begin -->
-            <div
-              class="w-full md:w-4/12 px-4 mr-auto ml-auto"
-              data-aos="fade-left"
-            >
-              <div
-                class="
-                  relative
-                  flex flex-col
-                  min-w-0
-                  break-words
-                  bg-white
-                  w-full
-                  mb-2
-                  mt-24
-                  shadow-lg
-                  rounded-lg
-                  bg-blueGray-800
-                "
-              >
-                <img
-                  alt="..."
-                  src="./leszek2.jpg"
-                  class="w-full align-middle rounded-t-lg"
-                />
-                <blockquote class="relative p-8 mb-2">
-                  <svg
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 583 95"
-                    class="absolute left-0 w-full block"
-                    style="height: 95px; top: -94px"
-                  >
-                    <polygon
-                      points="-30,95 583,95 583,65"
-                      class="text-blueGray-800 fill-current"
-                    ></polygon>
-                  </svg>
-                  <h4 class="text-4xl font-bold text-white">Lesław Kula</h4>
-                  <p class="text-xl font-light mt-2 text-white">Radca Prawny</p>
-                </blockquote>
-              </div>
+            <div class="column entry">
+                <div class="entry__thumb">
+                    <a href="prywatne/index.html" title="priv background">
+                        <img src="images/priv.png" alt="">
+                    </a>
+                </div>
+                <div class="entry__title">
+                    <h3>Prywatnie</h3>
+                </div>
             </div>
-            <!-- HERO - end -->
-          </div>
+            
         </div>
-      </section>
-      <!-- Working with us - end -->
+    </main> <!--  end main -->
 
-      <!-- Help - begin -->
-      <section class="pt-20 pb-20 bg-white">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2
-                class="text-4xl font-semibold uppercase text-blueGray-700"
-                data-aos="fade-left"
-              >
-                W czym mogę pomóc?
-              </h2>
-              <div class="pt-12" data-aos="fade-right">
-                <a
-                  href="#"
-                  id="demo"
-                  class="
-                    bg-blueGray-700
-                    hover:bg-black
-                    text-white
-                    font-bold
-                    py-2
-                    px-4
-                    rounded-full
-                    motion-safe:hover:scale-110
-                  "
-                  onclick="sendEmail('kancelaria.leslaw', 'kula.opole.pl')"
-                  onmouseover="mouseOver()"
-                  onmouseout="mouseOut()"
-                  >Napisz wiadomość</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Help - end -->
-    </main>
-    <!-- Footer - begin -->
-    <footer class="relative bg-black pt-8 pb-6">
-      <div
-        class="
-          bottom-auto
-          top-0
-          left-0
-          right-0
-          w-full
-          absolute
-          pointer-events-none
-          overflow-hidden
-          -mt-20
-        "
-        style="height: 80px"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            class="text-black fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
-        </svg>
-      </div>
+    <!-- Java Script
+    ================================================== -->
+    <script>
+        
+        (function(html) {
 
-      <div class="container mx-auto px-4">
-        <div
-          class="flex flex-wrap items-center md:justify-between justify-center"
-        >
-          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div class="text-white font-semibold py-1">
-              Copyright © 2021 Joanna Kokot
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- Footer - end -->
-  </body>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-    crossorigin="anonymous"
-  ></script>
-  <script>
-    AOS.init({
-      delay: 200,
-      duration: 1200,
-      once: true,
-    });
-  </script>
-  <script>
-    function sendEmail(user, server) {
-      location.href = "mailto:" + user + "@" + server;
-    }
-  </script>
-  <script>
-    function mouseOver() {
-      document.getElementById("demo").style.backgroundColor = "black";
-      document.getElementById("demo").style.padding = "15px";
-    }
+            'use strict';
 
-    function mouseOut() {
-      document.getElementById("demo").style.backgroundColor =
-        "rgba(39, 39, 42)";
-      document.getElementById("demo").style.padding = "10px";
-    }
-  </script>
+            html.className = html.className.replace(/\bno-js\b/g, '') + 'js';
+
+            const body = document.querySelector('body');
+            const preloader = document.querySelector('#preloader');
+
+            if (!preloader) return;
+
+            window.addEventListener('load', function() {
+
+                body.classList.remove('ss-preload');
+                body.classList.add('ss-loaded');
+
+                preloader.addEventListener('transitionend', function afterTransition(e) {
+                    if (e.target.matches('#preloader'))  {
+                        body.classList.add('ss-show');
+                        e.target.style.display = 'none';
+                        preloader.removeEventListener(e.type, afterTransition);
+                    }
+                });
+
+            });
+
+        })(document.documentElement);
+    
+    </script>
+
+</body>
+
 </html>

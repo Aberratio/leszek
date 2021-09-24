@@ -13,7 +13,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #9dff00; }
+  background-color: #0084ff; }
 .btn-light {
   color: #333;
   background-color: #f4f4f4; }
@@ -24,10 +24,10 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #9dff00; }
+  background-color: #0084ff; }
 
 .bg-main {
-  background: #9dff00;
+  background: #0084ff;
   color: #fff; }
 .bg-dark {
   background: #333;
@@ -75,7 +75,7 @@ input[class^="btn-"]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #9dff00;
+  background: #0084ff;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -86,7 +86,7 @@ input[class^="btn-"]:hover {
 
 .item {
   position: relative;
-  background: #9dff00;
+  background: #0084ff;
   overflow: hidden; }
   .item::after {
     content: "";
@@ -200,10 +200,10 @@ img {
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
-      border-color: #9dff00; }
+      border-color: #0084ff; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/tlo.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -213,9 +213,9 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 25%/cover;
+  background: url("../img/tlo.jpg") no-repeat 20% 25%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #9dff00; }
+  border-bottom: 3px solid #0084ff; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -223,7 +223,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #9dff00;
+    color: #0084ff;
     padding-bottom: 0.4rem; }
 #home-b .stats {
   display: grid;
@@ -251,7 +251,7 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #9dff00;
+    background: #0084ff;
     color: #fff;
     border-radius: 50%;
     height: 15px;
@@ -271,7 +271,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #9dff00;
+      background: #0084ff;
       width: 90px;
       height: 90px;
       line-height: 90px; }
@@ -287,7 +287,7 @@ img {
   grid-area: bioimage; }
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #9dff00;
+  border-left: 3px solid #0084ff;
   padding: 0.8rem; }
 #about-a .award-1 {
   grid-area: aw1; }
@@ -298,7 +298,7 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #9dff00;
+  color: #0084ff;
   margin: 1rem; }
 #about-b .progress {
   overflow: hidden;
@@ -310,7 +310,7 @@ img {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #9dff00; }
+    background: #0084ff; }
 #about-c .about-logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -386,7 +386,7 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #9dff00; }
+        background: #0084ff; }
 
 @media (max-width: 800px) {
   #header-home {
@@ -402,7 +402,7 @@ img {
 
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #9dff00;
+    border-bottom: 3px solid #0084ff;
     background-position: 20% 10%; }
     #header-home .header-content {
       display: none; }

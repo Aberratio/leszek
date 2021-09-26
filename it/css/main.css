@@ -289,6 +289,9 @@ img {
   grid-area: bio;
   border-left: 3px solid #0084ff;
   padding: 0.8rem; }
+  #about-a .bio p {
+    margin-top: 20px;
+    text-align: justify; }
 #about-a .award-1 {
   grid-area: aw1; }
 #about-a .award-2 {
@@ -457,5 +460,3 @@ img {
 @media (max-height: 330px) {
   #header-home .header-content h1 {
     font-size: 2rem; } }
-
-/*# sourceMappingURL=main.css.map */

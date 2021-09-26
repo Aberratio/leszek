@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="pl">
+
 <head>
 
     <!--- basic page needs
@@ -15,12 +16,7 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/demo.css">
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="manifest" href="site.webmanifest">
-
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body class="ss-preload">
@@ -37,98 +33,90 @@
     </div>
 
 
-    <!-- header 
-    ================================================== -->
-    <header>
-        <div class="row">
-            <div class="column lg-12 text-center">
-
-                <h1>Witam<span>.</span></h1>
-
-                <p class="lead">
-                Lesław Kula
-                </p>
-
-            </div>
-        </div>
-    </header> <!-- end header -->
-
-
     <!-- main content
     ================================================== -->
     <main>
-        <div class="row block-lg-one-third block-md-one-half block-tab-whole">
-           
-            <div class="column entry">
-                <div class="entry__thumb">
-                    <a href="prawo/index.html" title="law background">
-                        <img src="images/radca.png" alt="">
-                    </a>
-                </div>
-                <div class="entry__title">
-                    <h3>Radca Prawny</h3>
-                </div>
-            </div>
 
-            <div class="column entry">
-                <div class="entry__thumb">
-                    <a href="#" title="it background">
-                        <img src="" alt="">
-                    </a>
-                </div>
-                <div class="entry__title">
-                    <h3>Tester Oprogramowania</h3>
-                </div>
-            </div>
+        <div class="flex-container">
 
-            <div class="column entry">
-                <div class="entry__thumb">
-                    <a href="prywatne/index.html" title="priv background">
-                        <img src="images/priv.png" alt="">
-                    </a>
-                </div>
-                <div class="entry__title">
-                    <h3>Prywatnie</h3>
-                </div>
+            <div class="flex-child" id="tilt1">
+                <a href="prawo/index.html" title="law background">
+                    <div class="row">
+                        <div class="frame col-xs-6">
+                            <img src="images/radca.png" alt="">
+                            <div class="details">
+                                <h1>Radca Prawny</h1>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
             
-        </div>
+            <div class="flex-child" id="tilt2">
+                <a href="it/index.html" title="it background">
+                    <div class="row">
+                        <div class="frame col-xs-6">
+                            <img src="images/tester.jpg">
+                            <div class="details">
+                                <h1>Tester</h1>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="flex-child" id="tilt3">
+                <a href="prywatne/index.html" title="priv background">
+                    <div class="row">
+                        <div class="frame col-xs-6">
+                            <img src="images/priv.jpg">
+                            <div class="details">
+                                <h1>Prywatnie</h1>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+          </div>
     </main> <!--  end main -->
 
     <!-- Java Script
     ================================================== -->
     <script>
-        
-        (function(html) {
+            (function (html) {
 
-            'use strict';
+                'use strict';
 
-            html.className = html.className.replace(/\bno-js\b/g, '') + 'js';
+                html.className = html.className.replace(/\bno-js\b/g, '') + 'js';
 
-            const body = document.querySelector('body');
-            const preloader = document.querySelector('#preloader');
+                const body = document.querySelector('body');
+                const preloader = document.querySelector('#preloader');
 
-            if (!preloader) return;
+                if (!preloader) return;
 
-            window.addEventListener('load', function() {
+                window.addEventListener('load', function () {
 
-                body.classList.remove('ss-preload');
-                body.classList.add('ss-loaded');
+                    body.classList.remove('ss-preload');
+                    body.classList.add('ss-loaded');
 
-                preloader.addEventListener('transitionend', function afterTransition(e) {
-                    if (e.target.matches('#preloader'))  {
-                        body.classList.add('ss-show');
-                        e.target.style.display = 'none';
-                        preloader.removeEventListener(e.type, afterTransition);
-                    }
+                    preloader.addEventListener('transitionend', function afterTransition(e) {
+                        if (e.target.matches('#preloader')) {
+                            body.classList.add('ss-show');
+                            e.target.style.display = 'none';
+                            preloader.removeEventListener(e.type, afterTransition);
+                        }
+                    });
+
                 });
 
-            });
+            })(document.documentElement);
 
-        })(document.documentElement);
-    
     </script>
 
+<script src="js/titl1.js"></script>
+<script src="js/titl2.js"></script>
+<script src="js/titl3.js"></script>
 </body>
 
 </html>

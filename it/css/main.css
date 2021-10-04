@@ -24,7 +24,8 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #0084ff; }
+  color: white;
+  background-color: #000; }
 
 .bg-main {
   background: #0084ff;

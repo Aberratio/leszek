@@ -38,14 +38,18 @@
             <div class="bottom-line"></div>
             <p class="lead">Napisz mi wiadomość</p>
 
-            <form>
+            <form
+            method="post"
+            id="contact_form"
+            action="../send_form.php">
                 <div class="text-fields">
-                    <input type="text" class="text-input name-input" placeholder="Imię">
-                    <input type="text" class="text-input subject-input" placeholder="Temat">
-                    <input type="email" class="text-input email-input" placeholder="Adres mailowy">
-                    <input type="text" class="text-input phone-input" placeholder="Numer telefonu">
-                    <textarea class="text-input message-input" placeholder="Twoja wiadomość"> </textarea>
+                    <input type="text" class="text-input name-input" placeholder="Imię" name="name">
+                    <input type="text" class="text-input subject-input" placeholder="Temat" name="title">
+                    <input type="email" class="text-input email-input" placeholder="Adres mailowy" name="email">
+                    <input type="text" class="text-input phone-input" placeholder="Numer telefonu" name="phone">
+                    <textarea class="text-input message-input" placeholder="Twoja wiadomość" name="message"> </textarea>
                 </div>
+                <div id="send_form_status" class="text-center"></div>
                 <button type="submit" class="btn-dark">Wyślij</button>
             </form>
         </div>
@@ -93,5 +97,6 @@
         </p>
       </div>
     </footer>
+    <script src="../js/email-sender.js"></script>
   </body>
 </html>

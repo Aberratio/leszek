@@ -460,3 +460,24 @@ img {
 @media (max-height: 330px) {
   #header-home .header-content h1 {
     font-size: 2rem; } }
+
+    /* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: black #0084ff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0084ff;
+  border-radius: 20px;
+  border: 3px solid black;
+}

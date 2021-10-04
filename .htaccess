@@ -1,3 +1,7 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !^on$
 RewriteRule ^(.*)$ https://kula.opole.pl/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?kula.opole\.pl [NC]
+RewriteRule (.*) https://kula.wroclaw.pl/$1 [R=301,L]

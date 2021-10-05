@@ -191,16 +191,16 @@ img {
     display: flex; }
   #main-nav li {
     padding: 1rem 1.5rem; }
-  #main-nav a {
+  #main-nav > ul a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
-    #main-nav a:hover {
+    #main-nav > ul a:hover {
       border-color: #ccc; }
-    #main-nav a.current {
+    #main-nav > ul a.current {
       border-color: #0084ff; }
 
 #header-home {
@@ -279,6 +279,18 @@ img {
       #home-c .process-icon:hover .process-step {
         background: #333;
         color: #fff; }
+
+.repo-info {
+  justify-content: center;
+  display: flex;
+}
+
+.repo-image {
+  width: 300px;
+  margin-bottom: 30px;
+  display: block;
+  justify-content: center;
+}
 
 #about-a .about-info {
   display: grid;

@@ -87,12 +87,13 @@ html {
 
 .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 @media (max-width: 580px) {
   .flex-container {
     margin-top: 90px;
+    flex-direction: column;
   }
 }
 

@@ -332,7 +332,8 @@ img {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem; }
   #about-c .about-logos img {
-    width: 70%; }
+    margin: auto;
+    width: 50%; }
 #about-d .testimonials {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -416,6 +417,7 @@ img {
     flex-direction: column;
     align-items: center; }
     #main-nav li {
+      font-size: 14px;
       padding: 1rem; }
 
   #header-home {
@@ -447,8 +449,16 @@ img {
 
   #about-a .about-info {
     grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
-  #about-c {
-    display: none; }
+  
+  #about-c .about-logos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem; 
+  }
+
+  #about-c .about-logos img {
+    margin: auto;
+    width: 40%; }
 
   #contact-a .text-fields {
     grid-template-areas: "name" "subject" "email" "phone" "message"; }

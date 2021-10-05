@@ -89,6 +89,13 @@ html {
     flex-direction: column;
 }
 
+@media (max-width: 580px) {
+  .flex-container {
+    margin-top: 70px;
+}
+
+}
+
 .flex-child {
     flex: 1;
     margin: 50px;

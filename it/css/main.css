@@ -357,6 +357,8 @@ img {
     grid-area: message;
     height: 100px; }
   #contact-a .text-fields .text-input {
+    font-family: "Dosis", sans-serif;
+    letter-spacing: initial;
     padding: 0.5rem 1rem; }
 #contact-a button[type="submit"] {
   width: 50%; }

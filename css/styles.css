@@ -6,6 +6,7 @@ html {
      height: 100%;
      background-color: rgb(19, 34, 29);
      color: white;
+     overflow-y: hidden;
    }
 
    img {
@@ -91,9 +92,8 @@ html {
 
 @media (max-width: 580px) {
   .flex-container {
-    margin-top: 70px;
-}
-
+    margin-top: 90px;
+  }
 }
 
 .flex-child {

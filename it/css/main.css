@@ -328,6 +328,7 @@ img {
     text-align: center;
     background: #0084ff; }
 #about-c .about-logos {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem; }

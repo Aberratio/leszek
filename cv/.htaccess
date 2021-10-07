@@ -1,0 +1,2 @@
+ErrorDocument 403 /cv/403.html
+ErrorDocument 404 /cv/404.html

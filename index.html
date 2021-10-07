@@ -18,6 +18,16 @@
     ================================================== -->
     <link rel="stylesheet" href="css/styles.css?v=2">
     <link rel="icon" href="fav.png" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2JPX0FT08"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-B2JPX0FT08');
+    </script>
 </head>
 
 <body class="ss-preload">
@@ -52,7 +62,7 @@
                     </div>
                 </a>
             </div>
-            
+
             <div class="flex-child" id="tilt2">
                 <a href="it/index.html" title="it background">
                     <div class="row">
@@ -65,7 +75,7 @@
                     </div>
                 </a>
             </div>
-            
+
             <div class="flex-child" id="tilt3">
                 <a href="prywatne/index.html" title="priv background">
                     <div class="row">
@@ -79,45 +89,45 @@
                 </a>
             </div>
 
-          </div>
+        </div>
     </main> <!--  end main -->
 
     <!-- Java Script
     ================================================== -->
     <script>
-            (function (html) {
+        (function (html) {
 
-                'use strict';
+            'use strict';
 
-                html.className = html.className.replace(/\bno-js\b/g, '') + 'js';
+            html.className = html.className.replace(/\bno-js\b/g, '') + 'js';
 
-                const body = document.querySelector('body');
-                const preloader = document.querySelector('#preloader');
+            const body = document.querySelector('body');
+            const preloader = document.querySelector('#preloader');
 
-                if (!preloader) return;
+            if (!preloader) return;
 
-                window.addEventListener('load', function () {
+            window.addEventListener('load', function () {
 
-                    body.classList.remove('ss-preload');
-                    body.classList.add('ss-loaded');
+                body.classList.remove('ss-preload');
+                body.classList.add('ss-loaded');
 
-                    preloader.addEventListener('transitionend', function afterTransition(e) {
-                        if (e.target.matches('#preloader')) {
-                            body.classList.add('ss-show');
-                            e.target.style.display = 'none';
-                            preloader.removeEventListener(e.type, afterTransition);
-                        }
-                    });
-
+                preloader.addEventListener('transitionend', function afterTransition(e) {
+                    if (e.target.matches('#preloader')) {
+                        body.classList.add('ss-show');
+                        e.target.style.display = 'none';
+                        preloader.removeEventListener(e.type, afterTransition);
+                    }
                 });
 
-            })(document.documentElement);
+            });
+
+        })(document.documentElement);
 
     </script>
 
-<script src="js/titl1.js"></script>
-<script src="js/titl2.js"></script>
-<script src="js/titl3.js"></script>
+    <script src="js/titl1.js"></script>
+    <script src="js/titl2.js"></script>
+    <script src="js/titl3.js"></script>
 </body>
 
 </html>

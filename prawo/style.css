@@ -18,3 +18,10 @@
   border-radius: 20px;
   border: 3px solid black;
 }
+
+.back-to-main__container {
+  background-color: black; 
+  font-size: 13px; 
+  text-align: center; 
+  width: 100%;
+}  

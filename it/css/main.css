@@ -4,6 +4,17 @@
   margin: auto;
   overflow: hidden; }
 
+  .text-white {
+    color: white;  
+  }
+
+.back-to-main__container {
+  background-color: black; 
+  font-size: 13px; 
+  text-align: center; 
+  width: 100%;
+}  
+
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
   padding: 0.8rem 2rem;

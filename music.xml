@@ -1,0 +1,23 @@
+XML (Extensible Markup Language) = uniwersalny jêzyk znaczników
+
+<?xml version="1.0"?>
+<music>
+   <artist name="Deftones">
+      <album title="Ohms" year="2020">
+         <track title="Genesis" length="5:17"/>
+         <track title="Ceremony" length="3:27"/>
+         <track title="Urantia" length="4:30">
+            Jakaœ wartoœæ np. s³owa utworu.
+         </track>
+         <!-- Pozosta³e utwory -->
+      </album>
+   </artist>
+   <artist pseudonim="Lady Gaga">
+      <album title="Chromatica" year="2020">
+         <track title="Chromatica I" length="1:00"/>
+         <track title="Alice" length="2:57"/>
+         <track title="Stupid Love" length="3:13"/>
+         <!-- Pozosta³e utwory -->
+      </album>
+   </artist>
+</music>

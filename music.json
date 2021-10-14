@@ -1,0 +1,25 @@
+{
+   "artist": "Tool",
+   "albums": [
+   {
+   "title": "Lateralus",
+   "year": "2001",
+   "songs": [
+      {
+      "title": "The Grudge",
+      "length": "8:36"
+      },
+      {
+      "title": "Eon Blue Apocalypse",
+      "length": "1:04"
+     },
+     {
+     "title": "The Patient",
+     "length": "7:13"
+     },
+	]
+    },
+	{},
+	{},
+	]
+}
